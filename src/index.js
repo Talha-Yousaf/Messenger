@@ -27,8 +27,8 @@ export default function App() {
           },
           client.devToken('Talha'),
         );
-        const channel = await client.channel('messaging', 'notjustdev', {
-          name: 'notjustdev',
+        const channel = await client.channel('messaging', 'public', {
+          name: 'Public Chat Room',
         });
         await channel.watch();
       } catch (e) {
@@ -40,12 +40,14 @@ export default function App() {
   }, []);
   return (
     <GestureHandlerRootView style={{flex: 1}}>
-      {/* <OverlayProvider> */}
-      <Provider store={store}>
-        <Routes />
-        <FlashMessage position="bottom" icon="auto" />
-      </Provider>
-      {/* </OverlayProvider> */}
+      <OverlayProvider>
+        <Chat client={client}>
+          <Provider store={store}>
+            <Routes />
+            <FlashMessage position="bottom" icon="auto" />
+          </Provider>
+        </Chat>
+      </OverlayProvider>
     </GestureHandlerRootView>
   );
 }
