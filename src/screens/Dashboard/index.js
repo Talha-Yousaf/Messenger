@@ -30,10 +30,10 @@ export default function Dashboard(props) {
         <Channel channel={selectedChannel}>
           <MessageList />
           <MessageInput />
-          {/* <Text onPress={()=>setSelectedChannel(null)}>selectedChannel</Text> */}
+          <Text onPress={()=>setSelectedChannel(null)}>selectedChannel</Text>
         </Channel>
       :
-      <ChannelList onSelect={onSelect}/>
+      <ChannelList onSelect={onSelect}/> // filter prop , recieve object of query
       }
     </ScreenWrapper>
   );
