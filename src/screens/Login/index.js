@@ -29,7 +29,7 @@ export default function Dashboard(props) {
     //   dispatch(login({ userName: 'John Doe' }));
     // }, 1500);
   };
-  // console.log(fullName);hgfhf
+  // console.log(fullName);hgfhfhgjh
   // console.log(userName);
   return (
     <ScreenWrapper statusBarColor={AppColors.white} barStyle='dark-content'>
