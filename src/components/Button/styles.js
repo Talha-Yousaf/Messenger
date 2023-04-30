@@ -8,9 +8,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: width(5),
     backgroundColor: AppColors.green,
-    height: verticalScale(60),
-    width: scale(300),
-    alignSelf: 'center',
+    height: verticalScale(50),
+    width: scale(100),
+    backgroundColor:"red"
   },
   text: {
     color: AppColors.white,
