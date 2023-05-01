@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     backgroundColor: AppColors.green,
     height: verticalScale(50),
     width: scale(100),
+    backgroundColor:"red",
     backgroundColor:"red"
   },
   text: {
