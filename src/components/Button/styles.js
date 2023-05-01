@@ -12,7 +12,8 @@ const styles = StyleSheet.create({
     width: scale(100),
     backgroundColor:"red",
     backgroundColor:"red",
-    backgroundColor:"red"
+    backgroundColor:"red",
+    backgroundColor:"red",
 
   },
   text: {
