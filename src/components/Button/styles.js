@@ -11,7 +11,9 @@ const styles = StyleSheet.create({
     height: verticalScale(50),
     width: scale(100),
     backgroundColor:"red",
+    backgroundColor:"red",
     backgroundColor:"red"
+
   },
   text: {
     color: AppColors.white,
