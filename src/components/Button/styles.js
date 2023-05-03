@@ -18,5 +18,4 @@ const styles = StyleSheet.create({
     fontSize: width(4),
   }
 });
-export default styles;//
-//
+export default styles;
