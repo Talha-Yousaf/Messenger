@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
   },
   text: {
     color: AppColors.white,
-    
     fontSize: width(4),
   }
 });
